@@ -14,8 +14,8 @@ print("Odd-indexed chars:", odd_indexed)
 
 # 3. Extract Car Names 
 txt = 'MDaatmiazs'
-even_indexed = ''.join([txt[i] for i in range(0, len(txt), 2)])  # индексы: 0, 2, 4,...
-odd_indexed = ''.join([txt[i] for i in range(1, len(txt), 2)])   # индексы: 1, 3, 5,...
+even_indexed = ''.join([txt[i] for i in range(0, len(txt), 2)])  
+odd_indexed = ''.join([txt[i] for i in range(1, len(txt), 2)])   
 print("Even-indexed chars:", even_indexed)
 print("Odd-indexed chars:", odd_indexed)
 
