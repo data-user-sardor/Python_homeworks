@@ -1,7 +1,7 @@
 #1-task. Write a Python script to sort (ascending and descending) a dictionary by value
 my_dict = {'a': 3, 'b': 1, 'c': 2}
-print(dict(sorted(my_dict.items(), key=lambda x: x[1])))  # Ascending
-print(dict(sorted(my_dict.items(), key=lambda x: x[1], reverse=True)))  # Descending
+print(sorted(my_dict.values(),reverse=True))  #descending
+print(sorted(my_dict.values()))  #ascending
 
 #2-task. Write a Python script to add a key to a dictionary
 my_dict = {0: 10, 1: 20}
