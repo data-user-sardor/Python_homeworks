@@ -37,7 +37,7 @@ else:
 import json
 import os
 
-BOOKS_FILE = "D:\Сардор\Личное\Python\Python_homeworks\books.json"
+BOOKS_FILE = r"lesson-14\homework\books.json"
 
 # Load books from file or return empty list
 def load_books():
